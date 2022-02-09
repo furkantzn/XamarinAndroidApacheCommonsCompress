@@ -1,0 +1,43 @@
+﻿<metadata>
+  <attr path="/api/package[@name='org.apache.commons.compress.harmony.unpack200.bytecode']/class[@name='BCIRenumberedAttribute']/method[@name='toString' and count(parameter)=0]" name="managedName">
+   MethodToString</attr>
+  <attr path="/api/package[@name='org.apache.commons.compress.harmony.unpack200.bytecode']/class[@name='BCIRenumberedAttribute']/method[@name='writeBody' and count(parameter)=1 and parameter[1][@type='java.io.DataOutputStream']]" name="managedName">
+    MethodWriteBody </attr>
+  
+  <attr path="/api/package[@name='org.apache.commons.compress.harmony.unpack200.bytecode']/class[@name='ConstantPoolEntry']/method[@name='equals' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]" name="managedName">
+    MethodEquals
+  </attr>
+  <attr path="/api/package[@name='org.apache.commons.compress.harmony.unpack200.bytecode']/class[@name='ConstantPoolEntry']/method[@name='hashCode' and count(parameter)=0]" name="managedName">
+    MethodGetHashcode
+  </attr>
+  <attr path="/api/package[@name='org.apache.commons.compress.harmony.unpack200.bytecode.forms']/class[@name='InitMethodReferenceForm']/method[@name='context' and count(parameter)=1 and parameter[1][@type='org.apache.commons.compress.harmony.unpack200.bytecode.OperandManager']]" name="managedName">
+    MethodContext
+  </attr>
+  <attr path="/api/package[@name='org.apache.commons.compress.harmony.unpack200.bytecode.forms']/class[@name='ClassSpecificReferenceForm']/method[@name='getOffset' and count(parameter)=1 and parameter[1][@type='org.apache.commons.compress.harmony.unpack200.bytecode.OperandManager']]" name="managedName">
+    MethodGetOffset
+  </attr>
+   <attr path="/api/package[@name='org.apache.commons.compress.harmony.unpack200.bytecode.forms']/class[@name='SingleByteReferenceForm']/method[@name='getOffset' and count(parameter)=1 and parameter[1][@type='org.apache.commons.compress.harmony.unpack200.bytecode.OperandManager']]" name="managedName">
+    GetOffsetMethod
+  </attr>
+
+  <attr path="/api/package[@name='org.apache.commons.compress.archivers.dump']/class[@name='TapeInputStream']" name="visibility">public</attr>
+  <attr path="/api/package[@name='org.apache.commons.compress.harmony.unpack200.bytecode']/class[@name='ConstantPoolEntry']/method[@name='doWrite' and count(parameter)=1 and parameter[1][@type='java.io.DataOutputStream']]" name="visibility">protected</attr>
+
+
+
+  <remove-node path="/api/package[@name='org.apache.commons.compress.archivers']/interface[@name='EntryStreamOffsets']" />
+  <remove-node path="/api/package[@name='org.apache.commons.compress.archivers.examples']/interface[@name='CloseableConsumer']" />
+  <remove-node path="/api/package[@name='org.apache.commons.compress.archivers.cpio']/interface[@name='CpioConstants']" />
+  <remove-node path="/api/package[@name='org.apache.commons.compress.archivers.tar']/interface[@name='TarConstants']" />
+  <remove-node path="/api/package[@name='org.apache.commons.compress.archivers']/interface[@name='ArchiveEntry']" />
+  <remove-node path="/api/package[@name='org.apache.commons.compress.archivers.zip']/interface[@name='UnixStat']" />
+  <remove-node path="/api/package[@name='org.apache.commons.compress.archivers.zip']/interface[@name='ZipExtraField']" />
+  <remove-node path="/api/package[@name='org.apache.commons.compress.java.util.jar']/interface[@name='Pack200.Packer']" />
+  <remove-node path="/api/package[@name='org.apache.commons.compress.java.util.jar']/interface[@name='Pack200.Unpacker']" />
+  <remove-node path="/api/package[@name='org.apache.commons.compress.utils']/class[@name='ServiceLoaderIterator']/method[@name='next' and count(parameter)=0]" />
+
+  <attr path="/api/package[@name='org.apache.commons.compress.utils']/class[@name='IOUtils']/field[@name='EMPTY_LINK_OPTIONS']" name="type">
+    System.Collections.Generic.IList&lt;global::Java.Nio.FileNio.LinkOption&gt;
+  </attr>
+
+</metadata>
